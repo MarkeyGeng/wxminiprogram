@@ -1,0 +1,33 @@
+.my_title{
+  display: flex;
+  align-items: center;
+  padding:10rpx;
+  background-color: "black";
+}
+.logo{
+  flex: 7;
+
+}
+.search{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.down_app{
+  flex:3;
+  font-size:30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#000;
+  color:#fff;
+  border-radius: 10rpx;
+  padding:10rpx; 
+}

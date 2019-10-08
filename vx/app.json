@@ -1,0 +1,47 @@
+{
+  "usingComponents": {
+    "mytitle": "../../components/mytitle/mytitle"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/index/introduce",
+    "pages/index/introduce1",
+    "pages/index/A",
+    "pages/index/B",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00b26a",
+    "navigationBarTitleText": "Hummingbird",
+    "navigationBarTextStyle": "black"
+  },
+  
+  "tabBar": {
+    "color": "#000",
+    "selectedColor":"green",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "onepiece",
+        "iconPath": "S/9.png",
+        "selectedIconPath": "S/12.png"
+      },
+      {
+        "pagePath": "pages/index/introduce",
+        "text": "JJ",
+        "iconPath": "S/10.png",
+        "selectedIconPath": "S/13.png"
+      },
+      {
+        "pagePath": "pages/index/introduce1",
+        "text": "五月天",
+        "iconPath": "S/11.png",
+        "selectedIconPath": "S/14.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap85.json"
+  
+}

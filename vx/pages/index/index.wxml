@@ -1,0 +1,16 @@
+<view class="main">
+<mytitle></mytitle>
+</view>
+<view>
+  <view>
+      <image mode="widthFix" src='/S/8.jpg'></image>
+  </view>
+  <view style="height:80px">
+  
+  </view>
+  <view class="color_button">
+      <button  size="default" class="button_size" bindtap="bindJJ">乐坛时事</button>
+      <button  size="default" class="button_size" bindtap="bindJay">音乐欣赏</button>
+  </view>
+</view>
+
